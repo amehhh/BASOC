@@ -1,4 +1,7 @@
-"""Extended Kalman filter with supplied ROM dynamics and ROM Jacobian."""
+"""Extended Kalman filter using a reduced-order model as the dynamical system
+to estimate the state of a full-order model from FOM output measurements.
+Reduced-state estimates can be lifted to the full-state space using the ROM basis.
+"""
 
 import numpy as np
 from scipy.integrate import solve_ivp
