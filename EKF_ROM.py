@@ -1,5 +1,5 @@
-"""Extended Kalman filter using a reduced-order model as the dynamical system
-to estimate the state of a full-order model from FOM output measurements.
+"""Extended Kalman filter using a reduced-order model (ROM) as the dynamical system
+to estimate the state of a full-order model (FOM) using output measurements from the FOM.
 Reduced-state estimates can be lifted to the full-state space using the ROM basis.
 """
 
