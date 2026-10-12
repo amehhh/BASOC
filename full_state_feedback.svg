@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="826" height="195" viewBox="0 0 826 195">
-<rect width="826" height="195" fill="white"/>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1,1 L8,5 L1,9" fill="none" stroke="black" stroke-width="1.5"/></marker></defs>
-<g fill="white" stroke="black" stroke-width="2.3"><rect x="257" y="30" width="292" height="43"/><rect x="50" y="126" width="256" height="40"/><rect x="450" y="122" width="342" height="48"/></g>
-<g fill="none" stroke="black" stroke-width="2.3" marker-end="url(#arrow)"><path d="M178 126 V51 H257"/><path d="M549 51 H621 V122"/><path d="M450 146 H306"/></g>
-<g font-family="Times New Roman, serif" font-size="27" fill="black" text-anchor="middle"><text x="403" y="58">Full-order model (Plant)</text><text x="178" y="153">Surrogate control law</text><text x="621" y="153">Full-state projection Ψᵀx</text><text x="142" y="95" font-weight="bold">û(z)</text><text x="586" y="42" font-weight="bold">x</text><text x="378" y="136" font-weight="bold">z</text></g>
-</svg>
