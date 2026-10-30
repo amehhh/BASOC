@@ -3,7 +3,11 @@
 
 This repository contains the implementation of **Balanced Active Subspaces for Optimal Control (BASOC)**, a data-driven model reduction framework for optimal feedback control of high-dimensional nonlinear dynamical systems.
 
-BASOC leverages trajectory optimization and the Pontryagin minimum principle to construct state and gradient covariance matrices from locally optimal trajectories. Balancing these matrices yields reduced coordinates for approximating the value function, constructing reduced-order models, and developing surrogate feedback control laws.
+BASOC leverages trajectory optimization and the Pontryagin minimum principle to construct state and gradient covariance matrices from locally optimal trajectories.
+Balancing these matrices yields reduced coordinates for approximating the value function, a central object in both Hamilton–Jacobi–Bellman (HJB) theory and reinforcement learning (RL), while also enabling the construction of reduced-order models and surrogate feedback control laws.
+
+For output-based closed-loop feedback control, data assimilation is performed using a custom-built extended Kalman filter (EKF) together with the reduced-order models.
+
 
 ### Paper
 
